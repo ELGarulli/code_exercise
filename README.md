@@ -15,7 +15,7 @@ The sensor returns a list of values, the temperature values are expressed in Cel
 
 ### Assignment
 
-In the script main you can find a simple function to compute the overall change in temperature, 
+In the script main.py you can find a simple function to compute the overall change in temperature, 
 in test_sum_ev.py you can find an example of a basic test. 
 
 Please complete the following :
