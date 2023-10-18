@@ -6,8 +6,8 @@ how you approach the code, and a bit of style-check.
 
 ### Made up context 
 
-Let's suppose you have a bit of a weird device, it measures both humidity and temperature at the same time. 
-The even values the sensor returns refer to temperature, while the odd values refer to humidity (the sensor adapts the values so that all the temperature's values are even, and all the humidity's are odd). You are interested only in the temperature values (i.e., the even values), and you want to 
+Let's suppose you have a bit of a weird device, it measures hourly changes in both humidity and temperature at the same time. So every hour the sensor registers how much the temperature has changed compared to the previous hour, same with the humidity.
+The even values the sensor returns refer to changes in temperature, while the odd values refer to humidity (the sensor adapts the values so that all the temperature's values are even, and all the humidity's are odd). You are interested only in the temperature values (i.e., the even values), and you want to 
 understand the total magnitude of fluctuations over the period the sensor was active.
 
 The sensor returns a list of values, the temperature values are expressed in Celsius.
