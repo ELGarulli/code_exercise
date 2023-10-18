@@ -8,4 +8,4 @@ def sum_ev(numbers):
 
 
 if __name__ == '__main__':
-    main.sum_ev([1,2,5])
+    print(main.sum_ev([0,2,5,8]))

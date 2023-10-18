@@ -8,8 +8,8 @@ how you approach the code, and a bit of style-check.
 
 Let's suppose you have a bit of a weird device, it measures both humidity and temperature at the same time. 
 To distinguish between one type of data and the other, the sensor will return odd values if it's humidity and even
-if it's temperature. You are interested only in the temperature values (i.e., the even values), and you want to compute
-the overall change in temperature for the period of time the sensor was active.
+if it's temperature. You are interested only in the temperature values (i.e., the even values), and you want to 
+understand the total magnitude of fluctuations over the period of time the sensor was active.
 
 The sensor returns a list of values, the temperature values are expressed in Celsius.
 
